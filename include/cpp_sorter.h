@@ -1,12 +1,6 @@
-#if !defined(CPP_SORTER_H_)
-#define CPP_SORTER_H_
+#ifndef CPP_SORTER_H
+#define CPP_SORTER_H
 
-// simple sorter for arrays
-template <typename T>
-void array_sort(T * arr, size_t len)
-{
-    std::sort(arr, arr+len);
-}
+void bubbleSort(int arr[], int n);
 
-#endif
-
+#endif // CPP_SORTER_H
