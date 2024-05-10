@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2024-05-10T11:04:45.895" name="AllTests">
-  <testsuite name="SortingTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2024-05-10T11:04:45.895">
-    <testcase name="BubbleSort" status="run" result="completed" time="0" timestamp="2024-05-10T11:04:45.895" classname="SortingTest" />
+<testsuites tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2024-05-10T11:07:15.626" name="AllTests">
+  <testsuite name="SortingTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2024-05-10T11:07:15.626">
+    <testcase name="BubbleSort" status="run" result="completed" time="0" timestamp="2024-05-10T11:07:15.626" classname="SortingTest" />
   </testsuite>
 </testsuites>
