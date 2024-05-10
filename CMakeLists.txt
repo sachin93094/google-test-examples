@@ -11,5 +11,5 @@ include_directories(${GTEST_INCLUDE_DIRS})
 include_directories(${CMAKE_SOURCE_DIR}/include)  # Adjust the path as necessary
 
 # Link runTests with what we want to test and the GTest and pthread library
-add_executable(runTests test/cpp_sorter_test.cpp)
+add_executable(runTests test/cpp_sorter_test.cpp cpp_sorter.cpp)
 target_link_libraries(runTests ${GTEST_LIBRARIES} pthread)
