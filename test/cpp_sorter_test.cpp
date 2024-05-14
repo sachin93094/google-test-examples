@@ -6,7 +6,7 @@ TEST(SortingTest, BubbleSort) {
     int arr[] = {5, 2, 3, 1, 4};
     int n = sizeof(arr) / sizeof(arr[0]);
     bubbleSort(arr, n);
-    ASSERT_EQ(arr[0], 1);
+    ASSERT_EQ(arr[0], 100); // Introduce a false assertion
     ASSERT_EQ(arr[n-1], 5);
 }
 
